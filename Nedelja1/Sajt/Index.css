@@ -1,0 +1,170 @@
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.naslov {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+}
+
+#naslovna {
+    opacity: 0.4;
+    filter: grayscale(100%);
+}
+
+#podnaslov {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main { 
+    display: inline-block;
+}
+
+
+.navigacija {
+    padding: 10pt;
+    box-shadow: 0px 0px 0px 2px #ffffff;
+    background-color: white;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    text-decoration:none;
+}
+
+.button {
+	background-color:transparent;
+	border-radius:28px;
+	border:3px solid #6dc092;
+	display:inline-block;
+	cursor:pointer;
+	color:#6dc092;
+	font-family:Arial;
+	font-size:14px;
+	padding:10px 34px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #6dc092;
+}
+
+.button:hover {
+	background-color:transparent;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.button1 {
+	background-color:transparent;
+	border-radius:28px;
+	border:3px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	font-size:14px;
+	padding:10px 34px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px white;
+}
+
+.button:hover {
+	background-color:transparent;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+#mobilni {
+    height: 100px;
+    width: 100px; 
+    border-radius: 100px; 
+    opacity: 0.4;
+    filter: grayscale(60%); 
+}
+
+#aparat {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    opacity: 0.4;
+    filter: grayscale(60%);
+}
+
+
+div.levi {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+img.mobilni {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.komentar {
+    display: block;
+}
+
+#sredina {
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+    width:100%;
+    height:100px;
+    background-color:Gray;
+}
+#sredina div {
+    display: table-cell;
+    height:100px;
+    background-color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#mob{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+}
+
+#apt{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+}
+
+#kontaktForma {
+    background-color: rgb(109, 192, 146);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+
+#sendMessage{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.poruka{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
