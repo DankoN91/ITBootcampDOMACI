@@ -1,0 +1,25 @@
+body{
+    background-color: ivory;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    #podaci { grid-area: 1 / 1 / 3 / 7; 
+              text-align: center;
+              background-color: rgb(173,132,207);
+    }
+    #prihodi { grid-area: 3 / 1 / 6 / 4; 
+              text-align: center;
+    }
+    #rashodi { grid-area: 3 / 4 / 6 / 7; 
+              text-align: center;
+    }
+
+   
